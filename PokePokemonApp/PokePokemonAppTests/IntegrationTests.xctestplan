@@ -1,0 +1,45 @@
+{
+  "configurations" : [
+    {
+      "id" : "8D13ADC3-5576-4D6B-80A7-A58939EE71B5",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:..\/PokePokemon\/PokePokemon.xcodeproj",
+        "identifier" : "867E014B2E64A0E500F07FD9",
+        "name" : "PokePokemon_iOSTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:..\/PokePokemon\/PokePokemon.xcodeproj",
+        "identifier" : "86D868AC2E6480AA001498B7",
+        "name" : "PokePokemonServerDataTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:PokePokemonApp.xcodeproj",
+        "identifier" : "867E01C02E64AA8500F07FD9",
+        "name" : "PokePokemonAppTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:..\/PokePokemon\/PokePokemon.xcodeproj",
+        "identifier" : "860187522E6354780069DCFE",
+        "name" : "PokePokemonTests"
+      }
+    }
+  ],
+  "version" : 1
+}
