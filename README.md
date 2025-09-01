@@ -1,8 +1,12 @@
 
 ***
-Update Submodules before opening the project on xCode with:
+As this project has submodules, it is faster to clone using:
 
-submodule update --init --recursive
+git clone --recurse-submodules https://github.com/GuilhermeSol/PokePokemonApp.git
+
+And then open the file PokePokemon.xcworkspace
+
+Run IntegrationTest to get check % of full test coverage, 
 ***
 
 Pokémon iOS App – MVVM & TDD Showcase
