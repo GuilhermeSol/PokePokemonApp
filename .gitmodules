@@ -1,0 +1,3 @@
+[submodule "PokePokemonApp/PokePokemon"]
+	path = PokePokemonApp/PokePokemon
+	url = https://github.com/GuilhermeSol/PokePokemon.git
