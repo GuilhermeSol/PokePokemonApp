@@ -14,6 +14,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		860DCB342E66346D00E197D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 867E01A82E64AA8300F07FD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 867E01AF2E64AA8300F07FD9;
+			remoteInfo = PokePokemonApp;
+		};
 		867E01C22E64AA8500F07FD9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 867E01A82E64AA8300F07FD9 /* Project object */;
@@ -46,6 +53,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		860DCB302E66346D00E197D0 /* IntegrationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntegrationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		867E01B02E64AA8300F07FD9 /* PokePokemonApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokePokemonApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		867E01C12E64AA8500F07FD9 /* PokePokemonAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PokePokemonAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		867E01CB2E64AA8500F07FD9 /* PokePokemonAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PokePokemonAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,6 +72,11 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		860DCB312E66346D00E197D0 /* IntegrationTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = IntegrationTests;
+			sourceTree = "<group>";
+		};
 		867E01B22E64AA8300F07FD9 /* PokePokemonApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
@@ -85,6 +98,13 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		860DCB2D2E66346D00E197D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		867E01AD2E64AA8300F07FD9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -117,6 +137,7 @@
 				867E01B22E64AA8300F07FD9 /* PokePokemonApp */,
 				867E01C42E64AA8500F07FD9 /* PokePokemonAppTests */,
 				867E01CE2E64AA8500F07FD9 /* PokePokemonAppUITests */,
+				860DCB312E66346D00E197D0 /* IntegrationTests */,
 				867E02662E64AB5D00F07FD9 /* Frameworks */,
 				867E01B12E64AA8300F07FD9 /* Products */,
 			);
@@ -128,6 +149,7 @@
 				867E01B02E64AA8300F07FD9 /* PokePokemonApp.app */,
 				867E01C12E64AA8500F07FD9 /* PokePokemonAppTests.xctest */,
 				867E01CB2E64AA8500F07FD9 /* PokePokemonAppUITests.xctest */,
+				860DCB302E66346D00E197D0 /* IntegrationTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -144,6 +166,29 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		860DCB2F2E66346D00E197D0 /* IntegrationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 860DCB362E66346D00E197D0 /* Build configuration list for PBXNativeTarget "IntegrationTests" */;
+			buildPhases = (
+				860DCB2C2E66346D00E197D0 /* Sources */,
+				860DCB2D2E66346D00E197D0 /* Frameworks */,
+				860DCB2E2E66346D00E197D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				860DCB352E66346D00E197D0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				860DCB312E66346D00E197D0 /* IntegrationTests */,
+			);
+			name = IntegrationTests;
+			packageProductDependencies = (
+			);
+			productName = IntegrationTests;
+			productReference = 860DCB302E66346D00E197D0 /* IntegrationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		867E01AF2E64AA8300F07FD9 /* PokePokemonApp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 867E01D52E64AA8500F07FD9 /* Build configuration list for PBXNativeTarget "PokePokemonApp" */;
@@ -223,6 +268,10 @@
 				LastSwiftUpdateCheck = 1620;
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
+					860DCB2F2E66346D00E197D0 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 867E01AF2E64AA8300F07FD9;
+					};
 					867E01AF2E64AA8300F07FD9 = {
 						CreatedOnToolsVersion = 16.2;
 					};
@@ -253,11 +302,19 @@
 				867E01AF2E64AA8300F07FD9 /* PokePokemonApp */,
 				867E01C02E64AA8500F07FD9 /* PokePokemonAppTests */,
 				867E01CA2E64AA8500F07FD9 /* PokePokemonAppUITests */,
+				860DCB2F2E66346D00E197D0 /* IntegrationTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		860DCB2E2E66346D00E197D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		867E01AE2E64AA8300F07FD9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -282,6 +339,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		860DCB2C2E66346D00E197D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		867E01AC2E64AA8300F07FD9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -306,6 +370,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		860DCB352E66346D00E197D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 867E01AF2E64AA8300F07FD9 /* PokePokemonApp */;
+			targetProxy = 860DCB342E66346D00E197D0 /* PBXContainerItemProxy */;
+		};
 		867E01C32E64AA8500F07FD9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 867E01AF2E64AA8300F07FD9 /* PokePokemonApp */;
@@ -319,6 +388,55 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		860DCB372E66346D00E197D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KQ6Z6E2HVJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Gui.IntegrationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PokePokemonApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PokePokemonApp";
+			};
+			name = Debug;
+		};
+		860DCB382E66346D00E197D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KQ6Z6E2HVJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Gui.IntegrationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PokePokemonApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PokePokemonApp";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		867E01D32E64AA8500F07FD9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -469,6 +587,7 @@
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -512,6 +631,7 @@
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -535,9 +655,10 @@
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PokePokemonApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PokePokemonApp";
 				XROS_DEPLOYMENT_TARGET = 2.2;
 			};
@@ -559,9 +680,10 @@
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PokePokemonApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PokePokemonApp";
 				XROS_DEPLOYMENT_TARGET = 2.2;
 			};
@@ -582,6 +704,7 @@
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -605,6 +728,7 @@
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -616,6 +740,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		860DCB362E66346D00E197D0 /* Build configuration list for PBXNativeTarget "IntegrationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				860DCB372E66346D00E197D0 /* Debug */,
+				860DCB382E66346D00E197D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		867E01AB2E64AA8300F07FD9 /* Build configuration list for PBXProject "PokePokemonApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

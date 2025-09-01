@@ -14,7 +14,7 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <TestPlans>
          <TestPlanReference
-            reference = "container:PokePokemonAppTests/PokePokemonAppTests.xctestplan"
+            reference = "container:IntegrationTests/IntegrationTests.xctestplan"
             default = "YES">
          </TestPlanReference>
       </TestPlans>
@@ -24,9 +24,9 @@
             parallelizable = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "867E01C02E64AA8500F07FD9"
-               BuildableName = "PokePokemonAppTests.xctest"
-               BlueprintName = "PokePokemonAppTests"
+               BlueprintIdentifier = "860DCB2F2E66346D00E197D0"
+               BuildableName = "IntegrationTests.xctest"
+               BlueprintName = "IntegrationTests"
                ReferencedContainer = "container:PokePokemonApp.xcodeproj">
             </BuildableReference>
          </TestableReference>
