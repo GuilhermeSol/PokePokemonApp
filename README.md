@@ -5,6 +5,10 @@ Update Submodules before opening the project on xCode with:
 submodule update --init --recursive
 ***
 
+Open the project via PokePokemon.xcworkspace
+
+***
+
 Pokémon iOS App – MVVM & TDD Showcase
 
 This iOS application was developed as a technical demonstration of the Model-View-ViewModel (MVVM) architecture, implemented entirely with native Apple frameworks and SwiftUI.
